@@ -28,9 +28,7 @@ MD_Parola P = MD_Parola(MD_MAX72XX::FC16_HW, DIN, CLK, CS, 1);
 void setup(){
   //setPines();
   setLC();
-  printPantalla();
-  setSnakePos();
-  setComidaPos();
+  
 }
 
 void setSnakePos(){
